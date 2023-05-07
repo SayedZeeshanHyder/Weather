@@ -170,7 +170,7 @@ h2{
     margin: 10px;
     width: 500px;
     height: 270px;
-    background-color: indigo;
+    background-color: rgb(57, 18, 85);
     border-radius: 30px;
     padding: 15px;
 }
@@ -189,4 +189,41 @@ h2{
 .col4a:hover{
     cursor: pointer;
     background-color: rgb(214, 1, 1);
+}
+.col4a h1{
+    color: goldenrod;
+}
+.col3a h1{
+    color: white;
+}
+.mar{
+    opacity: 0.6;
+}
+.cntrimg{
+    width: 400px;
+    height: 400px;
+    top: 20%;
+    left: 36.5%;
+    position: absolute;
+    background-image: none;
+    background-color: transparent;
+    mix-blend-mode:color-burn
+}
+.sun{
+    left: 0%;
+    position: absolute;
+}
+.sun:hover{
+    cursor: pointer;
+}
+.hint{
+    margin-top: 20px;
+    display: none;
+    color: white;
+    border-radius: 4rem;
+    width: 800px;
+    height: 100px;
+    left: 28%;
+    position: absolute;
+    background-color: black;
 }

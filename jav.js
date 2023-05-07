@@ -9,3 +9,19 @@ function more(id){
     wid=270;
     }
 }
+var mov=2
+function move(id,hi){
+    if(mov==2)
+    {
+        id.style.transition = '2s';
+        id.style.left = '20%';
+        hi.style.transition = '2s';
+        hi.style.display = 'block';
+        mov=3;
+    }
+    else{
+        id.style.left = '0%';
+        hi.style.display = 'none';
+        mov=2;  
+    }
+}
